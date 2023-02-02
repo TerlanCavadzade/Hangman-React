@@ -1,0 +1,11 @@
+.charBox {
+  list-style: none;
+  border-bottom: 1px solid black;
+  flex: 1;
+  max-width: 1rem;
+  text-align: center;
+}
+
+.charBox > span {
+  /* visibility: hidden; */
+}
