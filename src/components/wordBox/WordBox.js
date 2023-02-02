@@ -6,7 +6,7 @@ import CharBox from "./CharBox";
 
 const WordBox = ({ word, guessedLetters }) => {
   return (
-    <div>
+    <>
       <ul className={charContainer}>
         {[...word].map((char, index) => (
           <CharBox correct={guessedLetters.includes(char)} key={index}>
@@ -14,7 +14,7 @@ const WordBox = ({ word, guessedLetters }) => {
           </CharBox>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 

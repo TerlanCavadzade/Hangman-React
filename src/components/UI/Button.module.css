@@ -1,0 +1,10 @@
+.btn {
+  background-color: whitesmoke;
+  color: rgb(31, 31, 31);
+  padding: 0.0625em 0.75em;
+  font-size: 1.2rem;
+  outline: transparent;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}

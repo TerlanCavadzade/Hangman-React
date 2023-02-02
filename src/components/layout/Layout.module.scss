@@ -1,0 +1,30 @@
+@mixin bgColor {
+  background-color: rgb(46, 46, 46);
+  color: whitesmoke;
+}
+
+@mixin centerVerticalHorizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  @include bgColor;
+  @include centerVerticalHorizontal;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.main {
+  @include centerVerticalHorizontal;
+  flex-direction: column;
+  position:relative;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  gap: 1.5rem;
+}
+
+.footer {
+  @include bgColor;
+  @include centerVerticalHorizontal;
+}

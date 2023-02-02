@@ -4,3 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+#root {
+  display: grid;
+  grid-template-rows: 10% 1fr 10%;
+  min-height: 100vh;
+}
